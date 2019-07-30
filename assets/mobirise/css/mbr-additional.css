@@ -1086,7 +1086,7 @@ pre {
     display: none;
   }
 }
-@media (max-width: 1023px) {
+@media (max-width: 991px) {
   .navbar-toggleable-md .navbar-nav .dropdown-menu {
     position: static;
     float: none;
@@ -1096,7 +1096,7 @@ pre {
     padding-left: 0;
   }
 }
-@media (min-width: 1024px) {
+@media (min-width: 992px) {
   .navbar-toggleable-md {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -1299,31 +1299,11 @@ body {
   background-color: #149dcc;
   color: #ffffff;
 }
-.jq-selectbox .jq-selectbox__trigger-arrow,
-.jq-number__spin.minus:after,
-.jq-number__spin.plus:after {
-  transition: 0.4s;
-  border-top-color: currentColor;
-  border-bottom-color: currentColor;
+.jq-selectbox .jq-selectbox__trigger-arrow {
+  border-top-color: contrast(currentColor, #000000, #ffffff, 30%);
 }
-.jq-selectbox:hover .jq-selectbox__trigger-arrow,
-.jq-number__spin.minus:hover:after,
-.jq-number__spin.plus:hover:after {
+.jq-selectbox:hover .jq-selectbox__trigger-arrow {
   border-top-color: #149dcc;
-  border-bottom-color: #149dcc;
-}
-.xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_default,
-.xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_current,
-.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box > div > div.xdsoft_current {
-  color: #ffffff !important;
-  background-color: #149dcc !important;
-  box-shadow: none!important;
-}
-.xdsoft_datetimepicker .xdsoft_calendar td:hover,
-.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box > div > div:hover {
-  color: #ffffff !important;
-  background: #ff3366 !important;
-  box-shadow: none !important;
 }
 .cid-rxJ5E4DZNt .navbar {
   background: #ffffff;
@@ -1574,7 +1554,7 @@ body {
 }
 @media (min-width: 1024px) {
   .cid-rxJ5E4DZNt .collapsed:not(.navbar-short) .navbar-collapse {
-    max-height: calc(98.5vh - 3.8rem);
+    max-height: calc(98.5vh - 4.5rem);
   }
 }
 .cid-rxJ5E4DZNt .collapsed button.navbar-toggler {
@@ -1730,15 +1710,36 @@ body {
 }
 .cid-rxJ5E4DZNt .nav-link:hover,
 .cid-rxJ5E4DZNt .dropdown-item:hover {
-  color: #767676 !important;
+  color: #f7ed4a !important;
 }
 .cid-rxJ69v762o {
   padding-top: 135px;
   padding-bottom: 135px;
   background-image: url("../../../assets/images/bg-masthead-2000x944.jpeg");
 }
-.cid-rxJfGajlgI {
+.cid-rxJ69v762o H1 {
+  text-align: right;
+}
+.cid-rxJ69v762o H3 {
+  text-align: right;
+}
+.cid-rxJOBNnK4l {
   padding-top: 90px;
+  padding-bottom: 30px;
+  background-color: #073b4c;
+}
+.cid-rxJOBNnK4l P {
+  color: #767676;
+}
+.cid-rxJOBNnK4l H1 {
+  color: #ffffff;
+}
+.cid-rxJOBNnK4l .mbr-text,
+.cid-rxJOBNnK4l .mbr-section-btn {
+  color: #cccccc;
+}
+.cid-rxJfGajlgI {
+  padding-top: 45px;
   padding-bottom: 15px;
   background-color: #ffffff;
 }
@@ -1886,4 +1887,74 @@ body {
 }
 .cid-rxJCSTDMPw .card {
   padding-bottom: 2rem;
+}
+.cid-rxJSLtJYt1 {
+  padding-top: 30px;
+  padding-bottom: 15px;
+  background-color: #efefef;
+}
+.cid-rxJSLtJYt1 P {
+  color: #767676;
+}
+.cid-rxJRNmPouB {
+  padding-top: 0px;
+  padding-bottom: 90px;
+  background-color: #efefef;
+}
+.cid-rxJRNmPouB h2 {
+  text-align: left;
+}
+.cid-rxJRNmPouB h4 {
+  text-align: left;
+  font-weight: 500;
+}
+.cid-rxJRNmPouB p {
+  color: #767676;
+  text-align: left;
+}
+.cid-rxJRNmPouB .aside-content {
+  flex-basis: 100%;
+  -webkit-flex-basis: 100%;
+}
+.cid-rxJRNmPouB .block-content {
+  display: -webkit-flex;
+  flex-direction: column;
+  -webkit-flex-direction: column;
+  word-break: break-word;
+}
+.cid-rxJRNmPouB .media {
+  margin: initial;
+  align-items: center;
+  -webkit-align-items: center;
+}
+.cid-rxJRNmPouB .mbr-figure {
+  align-self: flex-start;
+  -webkit-align-self: flex-start;
+  -webkit-flex-shrink: 0;
+  flex-shrink: 0;
+}
+.cid-rxJRNmPouB .card-img {
+  padding-right: 2rem;
+  width: auto;
+}
+.cid-rxJRNmPouB .card-img span {
+  font-size: 72px;
+  color: #707070;
+}
+@media (min-width: 992px) {
+  .cid-rxJRNmPouB .mbr-figure {
+    padding-right: 4rem;
+  }
+}
+@media (max-width: 991px) {
+  .cid-rxJRNmPouB .mbr-figure {
+    padding-right: 0;
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+  }
+}
+@media (max-width: 300px) {
+  .cid-rxJRNmPouB .card-img span {
+    font-size: 40px !important;
+  }
 }
