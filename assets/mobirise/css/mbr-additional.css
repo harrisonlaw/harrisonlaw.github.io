@@ -1744,8 +1744,8 @@ body {
   text-align: right;
 }
 .cid-rxJOBNnK4l {
-  padding-top: 90px;
-  padding-bottom: 30px;
+  padding-top: 45px;
+  padding-bottom: 0px;
   background-color: #0a579f;
 }
 .cid-rxJOBNnK4l P {
@@ -1769,7 +1769,7 @@ body {
 .cid-rxJfGajlgI .card-box {
   z-index: 1;
   position: relative;
-  background-color: rgba(15, 118, 153, 0.6);
+  background-color: rgba(13, 112, 206, 0.5);
   height: 100%;
   width: 100%;
   pointer-events: none;
@@ -1819,7 +1819,7 @@ body {
 .cid-rxJC8GERt5 .card-box {
   z-index: 1;
   position: relative;
-  background-color: rgba(15, 118, 153, 0.6);
+  background-color: rgba(13, 112, 206, 0.5);
   height: 100%;
   width: 100%;
   pointer-events: none;
@@ -1869,7 +1869,7 @@ body {
 .cid-rxJCSTDMPw .card-box {
   z-index: 1;
   position: relative;
-  background-color: rgba(15, 118, 153, 0.6);
+  background-color: rgba(13, 112, 206, 0.5);
   height: 100%;
   width: 100%;
   pointer-events: none;
@@ -2018,4 +2018,10 @@ body {
   .cid-rxJXDbFtKb .iconfont-wrapper {
     display: none;
   }
+}
+.cid-rxJXDbFtKb H2 {
+  color: #0a579f;
+}
+.cid-rxJXDbFtKb P {
+  color: #0a579f;
 }
